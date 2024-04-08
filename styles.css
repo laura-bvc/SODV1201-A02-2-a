@@ -1,0 +1,91 @@
+
+/**
+* @name: Assignement2
+* @Course Code: SODV1201
+* @class: Software Development Diploma program
+* @author: Laurainda Fan
+**/
+
+
+body {
+    font-family: 'Brush Script MT', 'Lucida Sans Typewriter', Helvetica, sans-serif;
+    text-align: center;
+	margin: 0;
+	padding: 0;
+	background-color: var(--bg-cream);
+	line-height: 200%;
+}
+
+:root {
+	--bg-cream: #CDDEEE;
+	--bg-panel: #FFFDD0;
+	--bg-navbar: #274472;
+	--bg-navbar-text: #FFFDD0;
+	--bg-text: #274472;
+}
+
+#navbar {
+	width: 100%;
+	overflow: hidden;
+	background-color: var(--bg-navbar);
+}
+#navbar a {
+	float: left;
+	color: var(--bg-navbar-text);
+	text-align: center;
+	padding: 1.5vh 4vw;
+	text-decoration: none;
+	font-size: 3vh;
+}
+#navbar a:hover {
+	background-color: var(--bg-navbar-text);
+	color: var(--bg-navbar);
+}
+#navbar a.active {
+	background-color: red;
+	color: white;
+}
+
+
+#footer {
+	width: 100%;
+	overflow: hidden;
+	background-color: var(--bg-navbar);
+	color: var(--bg-navbar-text);
+}
+
+
+.div_main {
+	
+	overflow-x: hidden;
+	height: 76vh;
+	width: 90vw;
+	margin: 1vh 1vw;
+	padding: 3vh 3vw;
+	border-radius: 40px;
+	text-align: justify;
+	background-color: var(--bg-panel);
+	color: var(--bg-text);
+}
+
+
+
+em {
+	font-weight: bold;
+}
+
+form {
+	margin: 6vh 0 0 0;
+}
+
+input {
+	margin: 2vh 0;
+}
+
+input[type="radio"] {
+	margin: 0;
+}
+
+#address {
+	width: 500px;
+}
